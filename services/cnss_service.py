@@ -31,10 +31,10 @@ def creer_declaration(mois,annee):
     )
     
      conn.commit()
-     return True
+     return declarationId
     except Exception as e:
        conn.rollback()
        print(f"Erreur: {e}")
-       return False
+       return None
 
 
