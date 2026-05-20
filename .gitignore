@@ -1,0 +1,19 @@
+# Environnement virtuel
+venv/
+
+# Base de données locale
+*.db
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PDF générés
+*.pdf
+
+# Variables d'environnement
+.env
+
+# VS Code
+.vscode/
